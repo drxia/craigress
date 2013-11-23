@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#minidata {
+	height: 400px;
+	width:	800px;
+	border: 1px solid blue;
+	clear:	both;
+}
+
+#description {
+    
+}
+
+table,td,tr {
+    width:	700px;
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+#minidatatbl {
+    margin: 0 auto;
+}

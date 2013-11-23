@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div#minidata
+    table#minidatatbl
+      - each item in news.data
+            tr
+                td 
+                    a(href=item.url) #{item.title}
+                td= item.date
+            tr
+                td#description(colspan='2')= item.description
+  input#rollText(type="text",value="")
+  input#rollButton(type="button",value="Roll") 
